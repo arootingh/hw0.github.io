@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Hello CSUN!</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Hello 👋 Comp Sci !!!!</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#quote">Quote</a>
+        <a href="#form">Form</a>
+        <a href="#media">Media</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About this page</h2>
+        <p title="Hover tooltip">
+          This starter project gives you everything you need to start working on
+          a new website, and nothing more.
+        </p>
+        <p>
+          Here’s an abbreviation:
+          <abbr title="California State University, Northridge">CSUN</abbr>
+        </p>
+      </section>
+
+      <section id="quote">
+        <h2>Favorite Quote</h2>
+        <blockquote cite="https://developer.mozilla.org/">
+          Learning web development is like building a house: start with the
+          foundation.
+        </blockquote>
+      </section>
+
+      <section id="form">
+        <h2>Contact Form</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Jane Doe"
+            required
+            minlength="2"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="jane@example.com"
+            required
+          />
+
+          <label for="role">Role:</label>
+          <select id="role">
+            <option>Student</option>
+            <option>Professor</option>
+            <option>Guest</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section id="media">
+        <h2>Media Examples</h2>
+        <figure>
+          <img
+            src="https://picsum.photos/300"
+            alt="Random placeholder"
+            width="300"
+            height="200"
+            loading="lazy"
+          />
+          <figcaption>Random image with alt text and lazy loading.</figcaption>
+        </figure>
+
+        <video controls width="320">
+          <source
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="table">
+        <h2>Sample Table</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Class</th>
+              <th>Professor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>COMP 440</td>
+              <td>Dr. Ebrahimi</td>
+            </tr>
+            <tr>
+              <td>COMP 485</td>
+              <td>Prof. Wiegley</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="extra">
+        <h2>Expandable Section</h2>
+        <details>
+          <summary>Click to expand</summary>
+          <p>
+            This text is hidden until you expand it using the
+            <code>&lt;details&gt;</code> and
+            <code>&lt;summary&gt;</code> elements.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Arootin Ghahramanians</p>
+    </footer>
+  </body>
+</html>
